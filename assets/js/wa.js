@@ -11,7 +11,7 @@ $('#example').czmChatSupport({
         speechBubble: "Tanya tanya tentang baju & topi!", /* To remove, (speechBubble:false) */
         pulseEffect: false, /* To remove, (pulseEffect:false) */
         text: { /* For Button style larger than 1 */
-            title: "Hubungi Kami.", /* Writing is required */
+            title: "Hubungi Kami disini.", /* Writing is required */
             description: "Mon-Sat: 10:00/22:00", /* To remove, (description:false) */
             online: "Now Online", /* To remove, (online:false) */
             offline: "I will be back soon" /* To remove, (offline:false) */
@@ -65,7 +65,7 @@ $('#example').czmChatSupport({
             /* Copy for more representatives [::Start Copy::] */
             {
                 avatar: {
-                    src: '<img src="assets/img/team/paul2.png" alt="Hasep">', /* Font, Image or SVG */
+                    src: '<img src="#" alt="Hasep">', /* Font, Image or SVG */
                     backgroundColor: "#10c379", /* Html color code */
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
                 },
