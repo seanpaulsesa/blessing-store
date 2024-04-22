@@ -1,4 +1,4 @@
-# blessing_store
-project 1
+link github pages
+https://seanpaulsesa.github.io/blessing-store/
 
-# https://github.com/seanpaulsesa/blessing_store
+project-1
