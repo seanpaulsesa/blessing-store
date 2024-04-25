@@ -5,13 +5,14 @@ $('#example').czmChatSupport({
         position: "right", /* left, right or false. "position:false" does not pin to the left or right */
         style: 3, /* Button style. Number between 1 and 7 */
         src: '<i class="fab fa-whatsapp"></i>', /* Image, Icon or SVG */
-        backgroundColor: "#2D3250", /* Html color code */
+        backgroundColor: "#10c379", /* Html color code */
         effect: 4, /* Button effect. Number between 1 and 7 */
-        notificationNumber: "4", /* Custom text or false. To remove, (notificationNumber:false) */
-        speechBubble: "Tanya tanya tentang baju & topi!", /* To remove, (speechBubble:false) */
+        notificationNumber: "2", /* Custom text or false. To remove, (notificationNumber:false) */
+        speechBubble: "Tanya tanya tentang harga", /* To remove, (speechBubble:false) */
         pulseEffect: false, /* To remove, (pulseEffect:false) */
         text: { /* For Button style larger than 1 */
-            title: "Hubungi Kami disini.", /* Writing is required */
+       
+        src: '<i class="fab fa-whatsapp"></i>', /* Image, Icon or SVG */ title:"Hubungi Team!", /* Writing is required */
             description: "Mon-Sat: 10:00/22:00", /* To remove, (description:false) */
             online: "Now Online", /* To remove, (online:false) */
             offline: "I will be back soon" /* To remove, (offline:false) */
@@ -24,9 +25,9 @@ $('#example').czmChatSupport({
         outsideClickClosePopup: true, /* true or false (Clicking anywhere on the page will close the popup) */
         effect: 1, /* Popup opening effect. Number between 1 and 15 */
         header: {
-            backgroundColor: "#000", /* Html color code */
-            title: "Beli Baju & Topi? Tanya dulu.", /* Writing is required */
-            description: "Klik salah satu Team blessing_store dibawah ini" /* To remove, (description:false) */
+            backgroundColor: "#10c379", /* Html color code */
+            title: "Klik salah satu Team blessing_store", /* Writing is required */
+            description: "Untuk tanya tanya Klik salah satu Team Blessing_Store" /* To remove, (description:false) */
         },
 
         /* Representative Settings */
@@ -35,19 +36,19 @@ $('#example').czmChatSupport({
             /* Copy for more representatives [::Start Copy::] */
             {
                 avatar: {
-                    src: '<img src="assets/img/team/image-oman.jpg" alt="Itin">', /* Font, Image or SVG */
+                    src: '<img src="assets/img/team/itin.jpg" alt="kk Crhistin">', /* Image, Icon or SVG */
                     backgroundColor: "#10c379", /* Html color code */
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
                 },
                 text: {
-                    title: "Itin", /* Writing is required */
-                    description: "+62 822-2369-1434", /* Custom text or false. To remove, (description:false) */
-                    online: "Sedang Online", /* Custom text or false. To remove, (online:false) */
-                    offline: "Offline" /* Custom text or false. To remove, (offline:false) */
+                    title: "Kk Christin", /* Writing is required */
+                    description: "Blessing_Store", /* To remove, (description:false) */
+                    online: "Sa Online", /* To remove, (online:false) */
+                    offline: "Nanti sa kembali lagi" /* To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+62822-2369-1434&text=Hi, blessing_store, saya mo beli baju & topi!", /* Writing is required */
-                    mobile: "https://wa.me/+62822-2369-1434/?text=Hi, blessing_store, saya mo beli baju & topi!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+6282223691434&text=Hi, Christin!", /* Writing is required */
+                    mobile: "https://wa.me/+62822-2369-1434/?text=Hi, Kk Christin!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */
@@ -65,19 +66,19 @@ $('#example').czmChatSupport({
             /* Copy for more representatives [::Start Copy::] */
             {
                 avatar: {
-                    src: '<img src="#" alt="Hasep">', /* Font, Image or SVG */
+                    src: '<img src="assets/img/team/hasep.jpg" alt="Kk Hasep">', /* Font, Image or SVG */
                     backgroundColor: "#10c379", /* Html color code */
                     onlineCircle: true /* Avatar online circle. To remove, (onlineCircle:false) */
                 },
                 text: {
-                    title: "Hasep", /* Writing is required */
-                    description: "+62 081248313786", /* Custom text or false. To remove, (description:false) */
-                    online: "Sedang Online", /* Custom text or false. To remove, (online:false) */
-                    offline: "Offline" /* Custom text or false. To remove, (offline:false) */
+                    title: "Kk Hasep", /* Writing is required */
+                    description: "Team Blessing_Store", /* Custom text or false. To remove, (description:false) */
+                    online: "Sa Online", /* Custom text or false. To remove, (online:false) */
+                    offline: "Nanti sa kembali lagi" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+62081248313786&text=Hi, blessing_store, saya mo beli baju & topi!", /* Writing is required */
-                    mobile: "https://wa.me/+62081248313786/?text=Hi, blessing_store, saya mo beli baju & topi!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+62081248313786&text=Hi, Hasep!", /* Writing is required */
+                    mobile: "https://wa.me/+62081248313786/?text=Hi, Kk Hasep!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */
